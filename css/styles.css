@@ -252,6 +252,10 @@ footer {
         margin-bottom: 2rem;
         margin-top: 2rem;
     }
+
+    .deje {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
