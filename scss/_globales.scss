@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(226, 224, 224);
+}
+
+/* TITULOS */
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+    font-family: 'Baloo 2', cursive;
+    -webkit-transition: 1s linear;
+    transition: 3s linear;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+    &:hover {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: 'Baloo 2', cursive;
+}

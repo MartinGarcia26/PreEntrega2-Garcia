@@ -1,0 +1,26 @@
+@import "mixins";
+/* INDEX */
+
+#carouselExampleIndicators {
+
+    margin: 0 auto;
+    margin-top: 8rem;
+    background-color: rgba(213, 216, 41, 0.603);
+}
+
+.imagenPc {
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    max-width: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    @include flexbox;
+
+    img {
+        width: 100%;
+    }
+}
+

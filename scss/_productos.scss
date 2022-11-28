@@ -1,0 +1,50 @@
+@import "mixins";
+/* PRODUCTOS */
+.contenedorcards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+
+}
+
+.botoncard {
+    background-color: #36213E;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.card {
+    align-items: center;
+    background-color: #ccc;
+    margin: 1%;
+    @include flexbox;
+}
+
+.botoncomprar {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @include flexbox;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h5 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2.5rem;
+        @include flexbox;
+    }
+}
+
+.card-img-top {
+    width: 80% !important;
+    margin: 0 auto;
+    padding: 3%;
+}
