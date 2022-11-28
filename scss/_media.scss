@@ -1,0 +1,61 @@
+/* MEDIA QUERIES */ 
+
+@media (max-width: 1250px) {
+    .nav-link {
+        font-size: 1.8rem;
+        padding-left: 10px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    .d-flex {
+        width: 100%;
+    }
+
+    .botonform {
+        padding: 5px;
+        margin-bottom: 1rem;
+
+    }
+
+    .acomodarbotones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mapa {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .deje {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #carouselExampleIndicators {
+        width: 40%;
+        margin: 0% auto;
+    }
+
+    .mapa {
+        width: 500px;
+        height: 350px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}

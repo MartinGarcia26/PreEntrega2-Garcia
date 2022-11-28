@@ -1,0 +1,17 @@
+@import "mixins";
+/* FORMULARIO */
+.formulario {
+    font-size: 2.5rem;
+    font-family: baloo 'Baloo 2', cursive;
+    flex-direction: column;
+    align-items: center;
+    @include flexbox;
+}
+
+.espacioform {
+    margin-top: 5rem;
+}
+
+.deje {
+    text-align: center;
+}

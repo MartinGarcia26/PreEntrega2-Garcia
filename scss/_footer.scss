@@ -1,0 +1,32 @@
+@import "variables";
+@import "mixins";
+/* FOOTER */
+footer {
+    background-color: $color-header;
+    color: $color-footer;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 10rem;
+    flex-direction: column;
+    @include flexbox;
+}
+
+.logosredes a {
+    font-size: 4rem;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: $color-footer;
+    }
+}
+
+.logosredes1 {
+    color: $color-footer;
+    font-size: 1.5rem;
+}
+
+.row-cols-4 {
+    justify-content: center;
+}

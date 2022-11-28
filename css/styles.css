@@ -1,279 +1,260 @@
-/* FUENTES */
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 * {
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
 }
 
 body {
-    background-color: rgb(226, 224, 224);
-}
-
-/* HEADER */
-.container-fluid {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #36213E;
-}
-
-.navbar {
-    padding: 0;
-}
-
-.nav-link {
-    color: rgb(184, 212, 22);
-    font-size: 2.5rem;
-    padding-left: 35px !important;
-}
-
-.active {
-    color: white !important;
-}
-
-.nav-link:hover {
-    color: white;
-}
-
-.d-flex {
-    width: 400px;
-    height: 35px;
-}
-
-/* INDEX */
-
-#carouselExampleIndicators {
-
-    margin: 0 auto;
-    margin-top: 8rem;
-    background-color: rgba(213, 216, 41, 0.603);
-}
-
-.imagenPc {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    max-width: 35%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10rem;
-}
-
-.imagenPc img {
-    width: 100%;
+  background-color: rgb(226, 224, 224);
 }
 
 /* TITULOS */
 h1 {
-    text-align: center;
-    font-size: 6rem;
-    font-weight: 800;
-    font-family: 'Baloo 2', cursive;
-    -webkit-transition: 1s linear;
-    transition: 3s linear;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 800;
+  font-family: "Baloo 2", cursive;
+  -webkit-transition: 1s linear;
+  transition: 3s linear;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
-
 h1:hover {
-    -webkit-transform: scale(.8);
-    transform: scale(.8);
-    max-width: 100%;
-    max-height: 100%;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 h2 {
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 800;
-    font-family: 'Baloo 2', cursive;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  font-family: "Baloo 2", cursive;
 }
 
-/* FORMULARIO */
-.formulario {
-    font-size: 2.5rem;
-    font-family: baloo 'Baloo 2', cursive;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* HEADER */
+.container-fluid {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #36213E;
 }
 
-.espacioform {
-    margin-top: 5rem;
+.navbar {
+  padding: 0;
 }
 
-.deje {
-    text-align: center;
+.nav-link {
+  color: rgb(184, 212, 22);
+  font-size: 2.5rem;
+  padding-left: 35px !important;
+}
+.nav-link:hover {
+  color: white;
 }
 
-/* UBICACION */
-.ubicacion {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.active {
+  color: white !important;
 }
 
-.espacioubicacion {
-    margin-top: 6rem;
+.d-flex {
+  width: 400px;
+  height: 35px;
 }
 
-/* NOSOTROS */
-.texto {
-    font-size: 3.5rem;
-    font-weight: 400;
+/* INDEX */
+#carouselExampleIndicators {
+  margin: 0 auto;
+  margin-top: 8rem;
+  background-color: rgba(213, 216, 41, 0.603);
+}
+
+.imagenPc {
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  max-width: 35%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.imagenPc img {
+  width: 100%;
 }
 
 /* PRODUCTOS */
 .contenedorcards {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5rem;
-
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
 }
 
 .botoncard {
-    background-color: #36213E;
-    align-items: center;
-    width: 50%;
-    font-size: 2rem;
+  background-color: #36213E;
+  align-items: center;
+  width: 50%;
+  font-size: 2rem;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ccc;
-    margin: 1%;
+  align-items: center;
+  background-color: #ccc;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
 }
 
 .botoncomprar {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.card-body p {
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.card-body h5 {
-    font-size: 2rem;
-    text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content: center;
 }
 
 .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-body h5 {
+  font-size: 2rem;
+  text-align: center;
+}
+.card-body p {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .card-img-top {
-    width: 80% !important;
-    margin: 0 auto;
-    padding: 3%;
+  width: 80% !important;
+  margin: 0 auto;
+  padding: 3%;
 }
 
-/* FOOTER */
-footer {
-    background-color: #36213E;
-    color: rgb(184, 212, 22);
-    text-align: center;
-    padding: 2rem;
-    margin-top: 10rem;
+/* UBICACION */
+.ubicacion {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.espacioubicacion {
+  margin-top: 6rem;
+}
+
+/* NOSOTROS */
+.texto {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+/* FORMULARIO */
+.formulario {
+  font-size: 2.5rem;
+  font-family: baloo "Baloo 2", cursive;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.espacioform {
+  margin-top: 5rem;
+}
+
+.deje {
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+  .nav-link {
+    font-size: 1.8rem;
+    padding-left: 10px !important;
+  }
+}
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .d-flex {
+    width: 100%;
+  }
+  .botonform {
+    padding: 5px;
+    margin-bottom: 1rem;
+  }
+  .acomodarbotones {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .mapa {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .deje {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #carouselExampleIndicators {
+    width: 40%;
+    margin: 0% auto;
+  }
+  .mapa {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+/* FOOTER */
+footer {
+  background-color: #36213E;
+  color: rgb(184, 212, 22);
+  text-align: center;
+  padding: 2rem;
+  margin-top: 10rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
 .logosredes a {
-    font-size: 4rem;
-    padding: 5px;
-    text-decoration: none;
-    color: white;
+  font-size: 4rem;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
 }
-
 .logosredes a:hover {
-    color: rgb(184, 212, 22);
+  color: rgb(184, 212, 22);
 }
 
 .logosredes1 {
-    color: rgb(184, 212, 22);
-    font-size: 1.5rem;
+  color: rgb(184, 212, 22);
+  font-size: 1.5rem;
 }
 
 .row-cols-4 {
-    justify-content: center;
+  justify-content: center;
 }
 
-
-@media (max-width: 1250px) {
-    .nav-link {
-        font-size: 1.8rem;
-        padding-left: 10px !important;
-    }
-}
-
-@media (max-width: 425px) {
-    h1 {
-        font-size: 1rem;
-    }
-
-    .d-flex {
-        width: 100%;
-    }
-
-    .botonform {
-        padding: 5px;
-        margin-bottom: 1rem;
-
-    }
-
-    .acomodarbotones {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .mapa {
-        width: 300px;
-        height: 300px;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-    }
-
-    .deje {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 3.5rem;
-    }
-}
-
-@media (min-width: 768px) {
-    #carouselExampleIndicators {
-        width: 40%;
-        margin: 0% auto;
-    }
-
-    .mapa {
-        width: 500px;
-        height: 350px;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-    }
-}
+/*# sourceMappingURL=styles.css.map */
