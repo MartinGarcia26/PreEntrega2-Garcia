@@ -240,6 +240,9 @@ h2 {
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
+  .container-fluid {
+    padding: 3rem;
+  }
 }
 /* FOOTER */
 footer {
